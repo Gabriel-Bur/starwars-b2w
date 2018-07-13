@@ -1,11 +1,11 @@
 # starwars-b2w
 
 ##SETUP
+Para utlizar a api abra o cmd e vá ao diretorio do projeto
 
-Para utlizar a api
+~\StarWars-B2W>set FLASK_APP=api.py
 
-1)~\StarWars-B2W>set FLASK_APP=api.py
-2)~\StarWars-B2W>flask run
+~\StarWars-B2W>flask run
 
 
 
@@ -25,8 +25,11 @@ Optional:{ }
 
 
 GETALL  - http://127.0.0.1:5000/planets
+
 GETBYID - http://127.0.0.1:5000/planets/{5b46b1f1e7dac64d40869103}
+
 GETBYNAME - http://127.0.0.1:5000/planets/{name}/{Hoth}
+
 
 
 POST - http://127.0.0.1:5000/planets
